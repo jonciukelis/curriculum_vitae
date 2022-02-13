@@ -36,7 +36,7 @@
 \section{Education} 
 
 \subsection{Glasgow University}
-\descript{BSci 2\textsuperscript{nd} with Honours \\Eletronics and Software}
+\descript{BSc 2\textsuperscript{nd} with Honours \\Eletronics and Software}
 \location{Jun 2020 | Glasgow, Scotland}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -113,9 +113,9 @@ Individual Project\\
 
 \section{ABOUT ME}
 
-An alumni of the University of Glasgow with Honours in Electronics and (mostly) Software engineering.
+An alumnus of the University of Glasgow with Honours in Electronics and (mostly) Software engineering.
 I currently write software for Traveltek Ltd. to create a more competitive and straightforward cruise holiday booking experience. \\
-I am seeking to set sail for a \textbf{full-stack}/\textbf{back-end} role with a competitive salary.
+I am seeking to set sail for a \textbf{full-cycle}/\textbf{full-stack}/\textbf{back-end} role.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
@@ -126,30 +126,29 @@ I am seeking to set sail for a \textbf{full-stack}/\textbf{back-end} role with a
 \runsubsection{Traveltek Ltd.}
 \descript{| Software Developer}
 \location{Sep 2021 | Glasgow, Scotland}
-As a part of a newly formed V2 team I developed a back-end cruise pricing application.
-It regularly queries static data from six different cruise providers, translates it to a common domain.
-Currently working on a shopping api (\textbf{FastAPI}) wrapper that transforms
-requests and responses from providers to Traveltek domain.
+In a newly formed V2 team, I build \textbf{back-end} infrastructure to get cruise pricing information and perform bookings.
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Developed a serverless (\textbf{AWS Lambda}) \textbf{Rust} application to retrieve static data from specified APIs
-and transform the data to a common domain.
-\item The V2 app measured a magnitude faster than the V1 perl implementation.
-\item \textbf{GitHub} used for version control, \textbf{Actions} for CI/CD. Scrum Master lead daily standups and weekly ceremonies.
+\item My team and I built a \textbf{Rust}-\textbf{Lambda} static cruise pricing application.
+It runs scheduled queries for different providers, translates data to a common domain.
+Application measured a magnitude faster than the V1 counterpart.
+\item Currently building a shopping API wrapper in \textbf{FastAPI} to transform messages from providers to a common domain and vice versa.
+\item We practice \textbf{XP} and \textbf{TDD}. \textbf{GitHub} used for version control. \textbf{Actions} for CI/CD. Daily standups, bi-weekly sprints and ceremonies, used \textbf{Jira}.
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Motorola Solutions UK}
 \descript{| Software Engineer}
 \location{Jul 2020 - Sep 2021 | Glasgow, Scotland}
-As a part of a team with multiple UK customers I tailored the Pronto product to the customers needs,
+As a part of a team with multiple UK customers, I tailored the Pronto product to the customers needs,
 welcomed change requests and handled integration with existing police systems.
 \begin{tightemize}
-\item I was responsible for the full \textbf{SDLC}, but mostly \textbf{Implementation}, \textbf{Testing}, \textbf{Integration}
-and \textbf{Maintenance} for a specific customer.
-\item I used \textbf{Java}, \textbf{XSLT} and in-house tools to produce cross-platform applications for the police forces.
-\item \textbf{Azure DevOps} and Daily \textbf{Scrum} to keep track of Development, \textbf{Jenkins}
-for CI/CD along with a form \textbf{TDD}. Both \textbf{SVN} and \textbf{Git} used for version control.
+\item My team and I were responsible for the full \textbf{SDLC} for a specific customer.
+\item We used \textbf{Java}, XSLT, and in-house tools to produce cross-platform applications for the police forces.
+
+\item Practiced \textbf{TDD}. \textbf{Azure Repos} for version control (\textbf{SVN} occasionally). \textbf{Jenkins}
+for CI/CD. Daily \textbf{Scrum}, used \textbf{Azure Boards}
+
 \end{tightemize}
 \sectionsep
 
@@ -157,8 +156,8 @@ for CI/CD along with a form \textbf{TDD}. Both \textbf{SVN} and \textbf{Git} use
 \descript{| Digital Intern}
 \location{Jun 2019 – Aug 2019 | Edinburgh, Scotland}
 \begin{tightemize}
-\item Developed a cross-platform mobile application based on \textbf{Azure cloud} services and \textbf{React native}. Used google apis to verify locations and get detailed information. The application is used to find, filter and map pub offerings. 
-\item Created a dashboard for an AI brewery stoppage detecting system. Based on \textbf{Flask}, styled with \textbf{Bootstrap} and \textbf{Chart.js}. The dashboard calculated downtime, AI efficiency, allowed reporting of false possitives and production line issues.
+\item Developed an App with \textbf{React Native}, \textbf{Azure Functions} and accompanying services. Sanitized address data and used Google APIs to get detailed information. The App still works - it finds, filters, and maps pub offerings. 
+\item Created a dashboard for an AI brewery stoppage detecting system. \textbf{Flask} backend, \textbf{Bootstrapped}, nice \textbf{Chart.js} charts. The dashboard calculated downtime, AI efficiency, allowed reporting of false positives and issues.
 \item Publicly available data scraping and analysis using \textbf{Python}.
 \end{tightemize}
 
@@ -167,16 +166,18 @@ for CI/CD along with a form \textbf{TDD}. Both \textbf{SVN} and \textbf{Git} use
 \runsubsection{Level 4 Project}
 \descript{| Honours Student}
 \location{Sep 2019 – Jun 2020 | Glasgow, Scotland}
-For my Individual Project I developed an offline-first progressive web app for exploring spectroscopy data. 
-The app was due to replace \textbf{MS2LDA.org} and be a service that is more private, faster, cheaper to maintain. 
-Based on \textbf{React JavaScript} with a minimal \textbf{Flask} backend.
+For my Individual Project, I developed an offline-first progressive web app for exploring spectroscopy data. 
+\begin{tightemize}
+\item The app accompanies MS2LDA.org as a lightweight alternative. 
+\item Based on \textbf{React} with a \textbf{Flask} backend.
+\end{tightemize}
 \sectionsep
 
 \subsection{Other projects at University}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Mbed heart-rate sensor - heartbeat detection algorithm in \textbf{C++}.
-\item Student feedback app. Developed a web-app whilst practicing Agile methodologies. \textbf{Django, JavaScript, Bootstrap, GitLab} etc.
+\item Mbed heart-rate sensor - coded a heartbeat detection algorithm in \textbf{C++}.
+\item Student feedback app. Developed a web-app whilst practicing Agile methodologies. \textbf{Django, JavaScript, Bootstrap, GitLab}, etc.
 \end{tightemize}
 \sectionsep
 
